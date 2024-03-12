@@ -1,0 +1,521 @@
+html{
+    scroll-behavior: smooth;
+}
+.main-color{
+  color:#1c1c1c;
+}
+.main-bg-color{
+    background-color:#1c1c1c;
+}
+.section-subtitle{
+    width: 625px !important;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-b;
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+#home{
+    background-image: url(../photos/bg.jpg);
+    background-size: cover;
+}
+#home .over-lay{
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+.navbar{
+    z-index: 99999999;
+    background-color: rgba(1, 4, 23, 0.4) !important;
+}
+.navbar-brand{
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 20px;
+    color:white;
+}
+
+.nav-link{
+    font-family: poppins;
+    padding-left: 30px;
+    font-size: 15px;
+    color: white !important;
+
+}
+#home .active{
+    position: relative ;
+}
+/* #home .active::after{
+    content: '';
+    width: 60%;
+    height: 2px;
+    background-color: white ;
+    position: absolute ;
+    top: 90%;
+    left: 21%;    
+} */
+#home .info{
+    color: white;
+
+}
+.info h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: montserrat;
+    line-height: 55px;
+}
+.info h3{
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 72px;
+}
+.info h3::after{
+    content: '|';
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 600;
+    animation-name: typing;
+    animation-duration: 15s;
+    animation-iteration-count:infinite ;
+}
+@keyframes typing {
+    0%{ content:' |';}
+    2%{ content:' L|';}
+    4%{ content:' La|';}
+    6%{ content:' Lar|';}
+    8%{ content:' Larr|';}
+    10%{ content:' Larry|';}
+    12%{ content:' Larry |';} 
+    14%{ content:' Larry D|';}
+    16%{ content:' Larry Da|';}
+    18%{ content:' Larry Dan|';}
+    20%{ content:' Larry Dani|';}
+    22%{ content:' Larry Danie|';}
+    24%{ content:' Larry Daniel|';}
+    26%{ content:' Larry Daniels|';}
+    28%{ content:' Larry Daniels|';}
+    30%{ content:' Larry Daniels|';}
+    32%{ content:' Larry Daniel|';}
+    34%{ content:' Larry Danie|';}
+    36%{ content:' Larry Dani|';}
+    38%{ content:' Larry Dan|';}
+    40%{ content:' Larry Da|';}
+    42%{ content:' Larry |';}
+    44%{ content:' Larry|';}
+    46%{ content:' Larr|';}
+    48%{ content:' Lar|';}
+    50%{ content:' La|';}
+    52%{ content:' L|';}
+    54%{ content:' De|';}
+    56%{ content:' Dev|';}
+    58%{ content:' Deve|';}
+    60%{ content:' Devel|';}
+    62%{ content:' Develo|';}
+    64%{ content:' Develop|';}
+    66%{ content:' Develope|';}
+    68%{ content:' Developer|';}
+    70%{ content:' Developer|';}
+  70.5%{ content:' Developer|';}
+    72%{ content:' Develope|';}
+    74%{ content:' Develop|';}
+    76%{ content:' Develo|';}
+    78%{ content:' Deve|';}
+    80%{ content:' Dev|';}
+  80.5%{ content:' De|';}
+    82%{ content:' D|';}
+  82.5%{ content:' |';}
+    81%{ content:' D|';}
+    82%{ content:' De|';}
+    84%{ content:' Des|';}
+    85%{ content:' Desi|';}
+    86%{ content:' Desig|';}
+    88%{ content:' Design|';}
+    90%{ content:' Designe|';}
+  90.5%{ content:' Designer|';}
+    91%{ content:' Designer|';}
+    92%{ content:' Designer|';}
+    93%{ content:' Designe|';}
+    94%{ content:' Design|';}
+    95%{ content:' Desig|';}
+    96%{ content:' Desi|';}
+    97%{ content:' Des|';}
+    98%{ content:' De|';}
+    99%{ content:' D|';}
+    100%{ content:' |';}
+}
+
+#home .icon{
+    border: 1px ;
+    padding: 12px 12px;
+    margin: 0 8px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+#about .progress-bar{
+    display: flex;
+    justify-content: space-between !important;
+}
+#about .about-img{
+    position: relative;
+}
+#about .about-img img{
+    width: 75%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 999999;
+    position: relative;
+
+}
+#about .progress
+{
+    height: 22px;
+    position: relative;
+}
+#about .progress .test
+{
+    position: absolute;
+    left: 1%;
+}
+#about .about-img::after{
+    content: '';
+    background-image: url(../photos/dots.png);
+    width: 60%;
+    height: 85%;
+    position: absolute;
+    top: 22%;
+    left: 8%;
+
+}
+.second-prog{
+    margin: 50px 0;
+}
+.progress .prog{
+    position: relative;
+}
+.progress .prog::after{
+    contain: 'web developer';
+    width: 5px;
+    height: 5px;
+}
+.btn{
+    transition: all 0.6s !important;
+}
+.btn1:hover{
+    background-color: white !important;
+    color: #1c1c1c !important;
+}
+.btn2:hover{
+    background-color: #1c1c1c !important;
+    color:white !important;
+}
+.Services{
+    background-color: #f7f7f7;
+}
+.title h2{
+    font-family: Montserrat-b;    
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    position: relative;
+}
+.title h2::after{
+    content: '';
+    background-image: url(../photos/dots.png);
+    width: 15%;
+    height: 10px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.Services .serv-cards{
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 8px #abd5bd;
+    transition: all 0.5s !important;
+}
+.Services .serv-cards h3{
+    font-family: Montserrat-b;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #1c1c1c;
+}
+.Services .serv-cards p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.Services .serv-icon{
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    color: #1c1c1c;
+    transition: all 0.5s !important;
+
+}
+.Services .serv-cards:hover .serv-icon{
+    background-color: #1c1c1c;
+    color: white;
+}
+#portfolio .nav-pills .nav-link{
+    color: #1c1c1c !important;
+    font-family: Montserrat-b;
+    border: none !important;
+    background-color: transparent !important;
+}
+#portfolio .nav-pills .active{
+    position: relative;
+}
+#portfolio .nav-pills .active::after{
+    content: '';
+    width: 65%;
+    height: 2px;
+    background-color: #1c1c1c;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform:translate(-50%);
+}
+.tab-content .box{
+    position: relative;
+    transition: all 0.5s;
+
+}
+.tab-content .box .layer{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    right: 2%;
+    bottom: 0%;
+    background-color: rgba(225, 225, 225, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.tab-content .box .layer:hover{
+    opacity: 1;
+    transform: translateY(-8px);
+
+}
+.tab-content .box .layer h6{
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+.tab-content .box .layer:hover h6{
+    transform: translateY(10px);
+}
+
+.tab-content .box .layer .port-icons{
+    margin-top: 20px;
+    border: 1px solid #1c1c1c;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 50%;
+    transition: all 0.5s;
+
+}
+.tab-content .box .layer .port-icons:hover{
+    border: 1px solid #1c1c1c;
+    color: #1c1c1c;
+    background-color: white;
+    cursor: pointer;
+}
+.tab-content .box .layer:hover .port-icons{
+    transform: translateY(-10px);
+}
+.col-md-12 button{
+    position: relative;
+    left: 55px;
+    top: 19px;
+}
+.Testimonials{
+    background-color: #f7f7f7;
+}
+.figure-img{
+    border-radius: 50%;
+}
+.carousel-indicators .ptn{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#1c1c1c;
+}
+.Testimonials .name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Montserrat-b;
+    color: black !important;
+    margin-top: 50px;
+}
+.Testimonials img{
+    width: 200px !important;
+    height: 200px !important;
+}
+.Testimonials .p{
+    width: 100% !important;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+
+}
+.Testimonials .type{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+
+}
+
+.numbers .numbers-icons{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.numbers .numbers-num{
+    margin: 15px 0;
+    font-size: 40px;
+    line-height: 33px;
+    font-weight: 900;
+}
+.numbers .numbers-content{
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+
+}
+#blog{
+    background-color: #f7f7f7;
+}
+#blog .card
+{
+    border: none;
+    margin-bottom: 50px;
+    border-radius: 0%;
+    box-shadow: 0 0 8px lightgray;
+    
+}
+#blog .card h5
+{
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 13px;
+}
+#blog .card h5:hover
+{
+    cursor: pointer;
+}
+#blog .card p
+{
+    font-family: montserrat-b;
+    font-size: 20px;
+}
+#blog .card p:hover
+{
+    cursor: pointer;
+}
+#blog .card .btn
+{
+    padding: 0;
+    border: none;
+    position: relative;
+}
+#blog .card .btn::after
+{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #1C1C1C;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+#blog .card-img
+{
+    overflow: hidden;  
+    border-radius: 0%; 
+}
+#blog .card img
+{
+    transition: all 0.5s;
+    border-radius: 0%; 
+}
+#blog .card img:hover
+{
+    transform: scale(1.2);
+}
+
+#blog .carousel-indicators button
+{
+    position: relative;
+    top:40px;
+    background-color: #869791;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.contact i{
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+    padding: 20px;
+    background-color:#f7f7f7;
+    font-size: 22px;
+    color: #1C1C1C;
+    transition: all 0.5s;
+
+}
+.contact i:hover{
+    color: white;
+    background-color: #1C1C1C;
+
+}
+
+.contact h6{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    font-family: Montserrat;
+}
+.contact .form-control{
+    background-color: #f4f4f4;
+    border: none !important;
+}
+.contact .contact-btn{
+    margin: 15px 0;
+    background-color: #1C1C1C;
+    color: white;
+    padding: 8px 35px;
+}
+.contact .contact-btn:hover{
+    border: 1px solid #1C1C1C;
+    color:#1C1C1C;
+    background-color: white;
+}
